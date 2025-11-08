@@ -1,0 +1,78 @@
+# ------------------------------------------------------------------------------
+# Go build artifacts
+# ------------------------------------------------------------------------------
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build and distribution directories
+bin/
+build/
+dist/
+release/
+
+# ------------------------------------------------------------------------------
+# Go modules and vendor
+# ------------------------------------------------------------------------------
+# Dependency directories (if you use vendoring)
+vendor/
+
+# ------------------------------------------------------------------------------
+# Logs and debugging
+# ------------------------------------------------------------------------------
+*.log
+*.trace
+*.prof
+*.tmp
+
+# ------------------------------------------------------------------------------
+# IDE & Editor settings
+# ------------------------------------------------------------------------------
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+
+# macOS Finder
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# ------------------------------------------------------------------------------
+# Environment & Config
+# ------------------------------------------------------------------------------
+# Local environment variables or credentials
+.env
+.env.local
+.envrc
+*.key
+*.pem
+*.crt
+
+# ------------------------------------------------------------------------------
+# Testing
+# ------------------------------------------------------------------------------
+# Coverage and test result files
+*.cover
+coverage.out
+testdata/tmp/
+
+# ------------------------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------------------------
+# Temporary files or swap files
+*.swp
+*.swo
+*~
+
+# Ignore Go workspace file if not used for shared workspace
+go.work
+go.work.sum
